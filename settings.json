@@ -1,0 +1,47 @@
+{
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontSize": 17,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true,
+    "’": true
+  },
+  "vscode-pets.position": "explorer",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.iconTheme": "helium-icon-theme",
+  "prettier.printWidth": 800,
+  "vscode-pets.petColor": "gray",
+  "diffEditor.wordWrap": "on",
+
+  // remove github gutters
+  "workbench.colorCustomizations": {
+    // only when using github
+    // "editorGutter.addedBackground": "#4ade8080",
+    // "editorGutter.modifiedBackground": "#60a5fa80",
+    // "editorGutter.deletedBackground": "#f8717180"
+
+    "editorGutter.addedBackground": "#282c34",
+    "editorGutter.modifiedBackground": "#282c34",
+    "editorGutter.deletedBackground": "#282c34"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // prettier settings
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "window.zoomLevel": 1
+}
